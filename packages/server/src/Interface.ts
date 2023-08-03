@@ -25,6 +25,15 @@ export interface IChatMessage {
     createdDate: Date
     sourceDocuments?: string
 }
+export interface IChatSession {
+    id: string
+    sessionId: string
+    sessionStatus: string
+    workflowId: string
+    resumeFunction: string
+    userVariables:string
+    createdDate: Date
+}
 
 export interface ITool {
     id: string
